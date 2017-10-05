@@ -31,6 +31,10 @@
     display: inline-block;
 }
 
+#footer a:hover {
+    color: #cecece !important;
+}
+
 #footer .icon.alt:before {
 	background-color: none;
 	color: rgba(244, 244, 255, 0.2);
@@ -43,10 +47,6 @@
 
 #footer a.icon.alt:hover:before {
     color: #cecece;
-}
-
-a.icon.alt:active:before {
-    color: #ffffff !important;
 }
 
 #footer a:active {
