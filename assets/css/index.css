@@ -13,3 +13,42 @@
 .major h2 {
     font-weight: 100;
 }
+
+/* footer */
+#footer {
+    text-align: center;
+}
+
+#footer .inner {
+    padding: 3em auto 0;
+}
+
+#footer ul {
+    margin-bottom: 1em;
+}
+
+#footer li {
+    display: inline-block;
+}
+
+#footer .icon.alt:before {
+	background-color: none;
+	color: rgba(244, 244, 255, 0.2);
+	display: inline-block;
+	height: 2em;
+	line-height: 2em;
+	text-align: center;
+	width: 2em;
+}
+
+#footer a.icon.alt:hover:before {
+    color: #cecece;
+}
+
+a.icon.alt:active:before {
+    color: #ffffff !important;
+}
+
+#footer a:active {
+    color: #ffffff !important;
+}
