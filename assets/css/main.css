@@ -2556,7 +2556,7 @@
 		button:active,
 		.button:hover,
 		.button:active {
-			box-shadow: inset 0 0 0 1.5px #4f5156;
+			box-shadow: none;
 			background-color: #d6d6d6;
 			color: #ffffff;
 		}
@@ -3177,13 +3177,13 @@
 
 			#header .logo:hover strong {
 				color: #ffffff;
-				background-color: #353c66;
+				background-color: #2B3048;
 				opacity: 0.8;
 			}
 
 			#header .logo:active strong {
 				color: #ffffff;
-				background-color: #353c66;
+				background-color: #2B3048;
 				opacity: 1;
 			}
 
