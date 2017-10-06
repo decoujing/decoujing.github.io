@@ -68,3 +68,16 @@
 #footer a:active {
     color: #ffffff !important;
 }
+
+#footer .line-icon {
+    content: url("../../images/line.png");
+    height: 1.5em;
+    width: 1.5em;
+    position: relative;
+    transform:translateY(27%);
+    display: inline-block;
+}
+
+#footer .line-icon:hover {
+    content: url("../../images/line_white.png");
+}
