@@ -2162,7 +2162,7 @@
 		}
 
 		.icon.alt:before {
-			color: #242943;
+			color: #252A42;
 			display: inline-block;
 			height: 2em;
 			line-height: 2em;
@@ -2178,11 +2178,11 @@
 	}
 
 	a.icon.alt:hover:before {
-		background-color: #1f2943;
+		background-color: none;
 	}
 
 	a.icon.alt:active:before {
-		background-color: #1f2943;
+		background-color: none;
 	}
 
 /* Image */
@@ -3172,7 +3172,7 @@
 				margin-right: 0.325em;
 				padding: 0 0.125em 0 0.375em;
 				border-radius: 2px;
-				opacity: 0.5;
+				opacity: 1;
 			}
 
 			#header .logo:hover strong {
@@ -3617,7 +3617,7 @@
 /* Main */
 
 	#main {
-		background-color: #2a2f4a;
+		background-color: #325284;
 	}
 
 		#main > * {
@@ -3743,7 +3743,7 @@
 
 		#footer .copyright li {
 			border-left: solid 1px rgba(212, 212, 255, 0.1);
-			color: rgba(244, 244, 255, 0.2);
+			color: rgba(244, 244, 255, 0.5);
 			display: inline-block;
 			line-height: 1;
 			margin-left: 1em;

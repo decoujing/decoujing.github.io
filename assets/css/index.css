@@ -27,6 +27,8 @@
 /* footer */
 #footer {
     text-align: center;
+    background-color: #2B3048;
+    opacity: 0.9;
 }
 
 #footer .inner {
@@ -41,13 +43,17 @@
     display: inline-block;
 }
 
+#footer a {
+	color: rgba(239, 239, 239, 0.5);
+}
+
 #footer a:hover {
     color: #cecece !important;
 }
 
 #footer .icon.alt:before {
 	background-color: none;
-	color: rgba(244, 244, 255, 0.2);
+	color: rgba(244, 244, 255, 0.8);
 	display: inline-block;
 	height: 2em;
 	line-height: 2em;
