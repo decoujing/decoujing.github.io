@@ -3519,7 +3519,7 @@
 			}
 
 		#banner.style1:after {
-			background-color: rgba(37, 42, 66, 0.6);
+			background-color: rgba(68, 68, 68, 0.5);
 		}
 
 		#banner.style2:after {
@@ -3734,6 +3734,62 @@
 		}
 
 /* Footer */
+	#footer {
+	    text-align: center;
+	    background-color: #2B3048;
+	    opacity: 0.9;
+	}
+
+	#footer .inner {
+	    padding: 3em auto 0;
+	}
+
+	#footer ul {
+	    margin-bottom: 1em;
+	}
+
+	#footer li {
+	    display: inline-block;
+	}
+
+	#footer a {
+		color: rgba(239, 239, 239, 0.5);
+	}
+
+	#footer a:hover {
+	    color: #cecece !important;
+	}
+
+	#footer .icon.alt:before {
+		background-color: none;
+		color: rgba(244, 244, 255, 0.4);
+		display: inline-block;
+		height: 2em;
+		line-height: 2em;
+		text-align: center;
+		width: 2em;
+	}
+
+	#footer a.icon.alt:hover:before {
+	    color: #cecece;
+	}
+
+	#footer a:active {
+	    color: #ffffff !important;
+	}
+
+	#footer .line-icon {
+	    content: url("../../images/line.png");
+	    height: 1.5em;
+	    width: 1.5em;
+	    position: relative;
+	    transform:translateY(27%);
+	    display: inline-block;
+	}
+
+	#footer .line-icon:hover {
+	    content: url("../../images/line_white.png");
+	}
 
 	#footer .copyright {
 		font-size: 0.8em;
