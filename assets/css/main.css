@@ -3176,15 +3176,13 @@
 			}
 
 			#header .logo:hover strong {
-				color: #ffffff;
-				background-color: #2B3048;
-				opacity: 0.8;
+				color: rgba(236, 236, 236, 0.7);
+				background-color: rgba(43, 48, 72, 0);
 			}
 
 			#header .logo:active strong {
 				color: #ffffff;
-				background-color: #2B3048;
-				opacity: 1;
+				background-color: rgba(43, 48, 72, 0);
 			}
 
 		#header nav {
