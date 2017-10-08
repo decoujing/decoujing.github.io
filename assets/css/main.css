@@ -1601,6 +1601,10 @@
 
 /* Basic */
 
+	.clearfix {
+		clear: both;
+	}
+
 	@-ms-viewport {
 		width: device-width;
 	}
@@ -1701,7 +1705,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-weight: 600;
+		font-weight: 100;
 		line-height: 1.65;
 		margin: 0 0 1em 0;
 	}
@@ -3520,7 +3524,8 @@
 			}
 
 		#banner.style1:after {
-			background-color: rgba(45, 45, 45, 0.5);
+			background-color: #4f4f4f;
+			opacity: 0.6;
 		}
 
 		#banner.style2:after {
