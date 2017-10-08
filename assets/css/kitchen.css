@@ -1,4 +1,8 @@
 /* banner */
 #banner {
-	background-image: url("../../images/kitchen.jpg");
+	background-image: url("../../images/about_02.jpg");
+}
+
+#main .content {
+	margin-bottom: 1em;
 }

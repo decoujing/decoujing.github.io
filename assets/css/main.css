@@ -3793,13 +3793,14 @@
 	    display: inline-block;
 	}
 
+	#footer .line-icon:hover {
+	    content: url("../../images/line_white.png");
+	}
+
+	/* Firefox */
 	#footer .line-icon::after {
 	    content: url("../../images/line_27x27.png");
 	    display: inline-block;
-	}
-
-	#footer .line-icon:hover {
-	    content: url("../../images/line_white.png");
 	}
 
 	#footer .line-icon:hover::after {
@@ -3939,6 +3940,15 @@
 
 			#menu .inner > :last-child {
 				margin-bottom: 3em;
+			}
+
+			#menu a:hover {
+			    border-bottom-color: transparent;
+			    color: #cecece !important;
+			}
+
+			#menu a:active {
+				color: #ffffff !important;
 			}
 
 		#menu ul {
