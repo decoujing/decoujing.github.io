@@ -1,9 +1,0 @@
-/* menu */
-#menu a:hover {
-    border-bottom-color: transparent;
-    color: #cecece !important;
-}
-
-#menu a:active {
-	color: #ffffff !important;
-}
