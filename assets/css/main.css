@@ -3793,8 +3793,17 @@
 	    display: inline-block;
 	}
 
+	#footer .line-icon::after {
+	    content: url("../../images/line_27x27.png");
+	    display: inline-block;
+	}
+
 	#footer .line-icon:hover {
 	    content: url("../../images/line_white.png");
+	}
+
+	#footer .line-icon:hover::after {
+		content: url("../../images/line_white_27x27.png");
 	}
 
 	#footer .copyright {
