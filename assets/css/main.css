@@ -2817,7 +2817,7 @@
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.3;
+				opacity: 0.1;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
@@ -2836,7 +2836,7 @@
 			}
 
 			.tiles article:hover:before {
-				opacity: 0;
+				opacity: 0.4;
 			}
 
 			.tiles article.is-transitioning {
@@ -3447,7 +3447,7 @@
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.6;
+			opacity: 0.5;
 			position: absolute;
 			top: 0;
 			width: 100%;
