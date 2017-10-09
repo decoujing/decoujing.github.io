@@ -3797,16 +3797,6 @@
 	    content: url("../../images/line_white.png");
 	}
 
-	/* Firefox */
-	#footer .line-icon::after {
-	    content: url("../../images/line_27x27.png");
-	    display: inline-block;
-	}
-
-	#footer .line-icon:hover::after {
-		content: url("../../images/line_white_27x27.png");
-	}
-
 	#footer .copyright {
 		font-size: 0.8em;
 		list-style: none;
