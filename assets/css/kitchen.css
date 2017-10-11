@@ -9,20 +9,32 @@
 
 .image-box {
 	position: relative;
-	width: 100%;
+	width: 33%;
 }
 
 .image-box h3 {
 	position: absolute;
-	top: 20px;
-	left: 1em;
+	top: 2em;
+	left: 2.2em;
 	border-bottom: 1px solid #fff
 }
 
 .image-box p {
 	position: absolute;
 	top: 200px;
-	left: 1em;
-	width: 90%;
+	left: 3.5em;
+	width: 83%;
 	font-size: 0.8em;
+}
+
+@media screen and (max-width: 1000px) {
+	.image-box {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.image-box {
+		width: 100%;
+	}
 }
