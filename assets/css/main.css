@@ -3659,6 +3659,12 @@
 			background-color: transparent;
 		}
 
+		#main .page {
+			padding: 2em;
+			background-color: rgba(74, 79, 84, 0.7);
+			border-radius: 10px;;
+		}
+
 /* Contact */
 
 	#contact {
