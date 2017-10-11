@@ -19,7 +19,7 @@
 #cd-timeline {
   position: relative;
   padding: 2em 0;
-  margin-top: 2em;
+  margin: 2em 4em;
 }
 #cd-timeline::before {
   /* this is the vertical line */
