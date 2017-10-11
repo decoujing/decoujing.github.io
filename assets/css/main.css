@@ -3623,7 +3623,12 @@
 /* Main */
 
 	#main {
-		background-color: #325284;
+		/*background-color: #325284;*/
+		background-image: url('/images/banner.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		background-size: cover;
 	}
 
 		#main > * {
