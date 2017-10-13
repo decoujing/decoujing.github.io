@@ -12,6 +12,10 @@
 	background-color: rgba(61, 84, 125);
 }
 
+.page p {
+	margin: 0 1em 1em;
+}
+
 /* Timeline */
 
 .cd-container {
