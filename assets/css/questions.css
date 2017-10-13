@@ -211,10 +211,11 @@
 .cd-timeline-content ul {
   margin: 0;
 }
-.cd-timeline-content span {
-  margin-left: -2px;
+.cd-timeline-content i {
+  margin: 0.2em 0 0 0.6em;
 }
 .cd-timeline-content li {
+  margin-left: 1em;
   color: #303e49;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
@@ -251,7 +252,7 @@
   height: 0;
   width: 0;
   border: 7px solid transparent;
-  border-right: 7px solid white;
+  border-right: 7px solid rgba(186, 186, 186, 0.6);
 }
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
