@@ -103,13 +103,19 @@
   margin-top: -12px;
 }
 .cd-timeline-img.cd-green {
-  background: #75ce66;
+  background: #82b879;
 }
 .cd-timeline-img.cd-red {
-  background: #c03b44;
+  background: #c75961;
 }
 .cd-timeline-img.cd-blue {
-  background: rgb(82, 129, 185);
+  background: #436ea3;
+}
+.cd-timeline-img.cd-orange {
+  background: #df9960;
+}
+.cd-timeline-img.cd-yellow {
+  background: #ebdc5b;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
