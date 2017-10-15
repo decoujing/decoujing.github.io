@@ -3442,12 +3442,15 @@
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			background-color: #262626;
+			background: -webkit-linear-gradient(left, rgb(0, 0, 0), rgba(255, 255, 255, 0));
+			background: -o-linear-gradient(right, rgb(0, 0, 0), rgba(255, 255, 255, 0));
+			background: -moz-linear-gradient(right, rgb(0, 0, 0), rgba(255, 255, 255, 0));
+			background: linear-gradient(to right, rgb(0, 0, 0), rgba(255, 255, 255, 0));
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.2;
+			opacity: 0.5;
 			position: absolute;
 			top: 0;
 			width: 100%;
