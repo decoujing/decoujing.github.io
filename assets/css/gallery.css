@@ -533,6 +533,7 @@
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
+		background: rgb(68, 68, 68);
 	}
 
 		#main .thumb {
