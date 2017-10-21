@@ -7,6 +7,12 @@
 	background-image: url("../../images/background_02.jpg");
 }
 
+.page .image {
+	width: 40%;
+	float: right;
+	margin: 1em 0 1em 1.5em;
+}
+
 li i {
 	margin-top: 2px;
 }
@@ -17,4 +23,10 @@ ol li {
 ol p {
 	margin: 0 0 0.7em 0.5em;
 	font-size: 0.9em;
+}
+
+@media screen and (max-width: 1024px) {
+	.page .image {
+		width: 100%;
+	}
 }
