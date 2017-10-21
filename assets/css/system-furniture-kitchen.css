@@ -5,3 +5,8 @@
 #main {
 	background-image: url("../../images/background_02.jpg");
 }
+
+table th {
+	width: 25%;
+	font-size: 1.1em;
+}
