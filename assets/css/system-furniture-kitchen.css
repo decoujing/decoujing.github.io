@@ -10,3 +10,15 @@ table th {
 	width: 25%;
 	font-size: 1.1em;
 }
+
+.page .image {
+	width: 30%;
+	float: right;
+	margin: 0em 0 1em 1.5em;
+}
+
+@media screen and (max-width: 1024px) {
+	.page .image {
+		width: 100%;
+	}
+}

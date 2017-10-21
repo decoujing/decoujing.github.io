@@ -35,7 +35,7 @@
 
 #cd-timeline {
   position: relative;
-  padding: 2em 15%;
+  padding: 2em 0;
   margin: 2em 2em;
 }
 #cd-timeline::before {
@@ -48,7 +48,6 @@
   width: 4px;
   background: #d7e4ed;
 }
-
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
     margin-top: 2em;
@@ -281,7 +280,7 @@
   .cd-timeline-content {
     margin-left: 0;
     padding: 1.6em;
-    width: 40%;
+    width: 45%;
   }
   .cd-timeline-content::before {
     top: 24px;
@@ -449,30 +448,5 @@
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0);
-  }
-}
-
-/* RWD size */
-
-@media only screen and (max-width: 1280px) {
-  #cd-timeline {
-    padding: 2em 0;
-  }
-  .cd-timeline-content {
-	width: 40%;
-  }
-}
-
-@media only screen and (max-width: 960px) {
-
-  .cd-timeline-content {
-	width: 50%;
-  }
-}
-
-@media only screen and (max-width: 720px) {
-
-  .cd-timeline-content {
-	width: 80%;
   }
 }
