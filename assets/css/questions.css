@@ -35,7 +35,7 @@
 
 #cd-timeline {
   position: relative;
-  padding: 2em 0;
+  padding: 2em 15%;
   margin: 2em 2em;
 }
 #cd-timeline::before {
@@ -200,7 +200,7 @@
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
-  background: rgba(186, 186, 186, 0.6);
+  background: rgba(186, 186, 186, 0.8);
   border-radius: 0.25em;
   padding: 1em;
   /*box-shadow: 0 3px 0 #d7e4ed;*/
@@ -260,7 +260,7 @@
   height: 0;
   width: 0;
   border: 7px solid transparent;
-  border-right: 7px solid rgba(186, 186, 186, 0.6);
+  border-right: 7px solid rgba(186, 186, 186, 0.8);
 }
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
@@ -280,13 +280,13 @@
   .cd-timeline-content {
     margin-left: 0;
     padding: 1.6em;
-    width: 45%;
+    width: 40%;
   }
   .cd-timeline-content::before {
     top: 24px;
     left: 100%;
     border-color: transparent;
-    border-left-color: rgba(186, 186, 186, 0.6);
+    border-left-color: rgba(186, 186, 186, 0.8);
   }
   .cd-timeline-content .cd-read-more {
     float: left;
@@ -307,7 +307,7 @@
     left: auto;
     right: 100%;
     border-color: transparent;
-    border-right-color: rgba(186, 186, 186, 0.6);
+    border-right-color: rgba(186, 186, 186, 0.8);
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
     float: right;
