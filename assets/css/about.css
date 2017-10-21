@@ -6,3 +6,15 @@
 #main {
 	background-image: url("../../images/background_02.jpg");
 }
+
+li i {
+	margin-top: 2px;
+}
+
+ol li {
+	font-size: 1.2em;
+}
+ol p {
+	margin: 0 0 0.7em 0.5em;
+	font-size: 0.9em;
+}
