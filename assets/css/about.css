@@ -13,8 +13,8 @@
 	margin: 1em 0 1em 1.5em;
 }
 
-li i {
-	margin-top: 2px;
+.fa-li {
+	margin-top: 9px;
 }
 
 ol li {

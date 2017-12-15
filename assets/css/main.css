@@ -1,4 +1,3 @@
-@import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 @import url("https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css");
 
@@ -3808,6 +3807,15 @@
 
 	#footer .line-icon:hover {
 	    content: url("../../images/line_white.png");
+	}
+
+	#footer .footer-icons {
+		margin-bottom: 1em;
+	}
+
+	#footer .footer-icons a {
+		border-bottom: none;
+		margin: 0 0.9em;
 	}
 
 	#footer .copyright {
